@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Segura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="js" href="script.js">
+</head>
+
+<body>
+<header>
+    <h1>Segurança Digital e Ferramentas para Estudantes</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#fontes">Fontes</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+</header>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>Este projeto foi desenvolvido em parceria com a EEEM Marechal Rondon para a graduação de engenharia de sofware com o intuito de trazer orientações e dicas sobre como navegar pela internet de forma segura a favor dos estudos</p><br>
+
+        <p>
+            A relatora e sexóloga Lais Conter, 37, decidiu morar sozinha há pouco mais de um ano, na região central de São Paulo. Gaúcha, viveu com a mãe em Porto Alegre, depois dividiu a casa com o ex-marido e, após o divórcio, passou seis anos compartilhando o apartamento com amigos.
+        </p>
+    </section>
+
+    <section id="seguranca">
+        <h2>Navegação Segura</h2>
+        <ul>
+            <li>Use senhas fortes</li>
+            <li>Evite clicar em links suspeitos</li>
+            <li>Não compartilhe dados pessoais</li>
+        </ul>
+    </section>
+
+    <section id="fontes">
+        <h2>Fontes Confiáveis</h2>
+        <ul>
+            <li>Prefira sites com HTTPS</li>
+            <li>Verifique o autor</li>
+            <li>Compare informações</li>
+        </ul>
+    </section>
+
+    <section id="pdf">
+        <h2>Material em PDF</h2>
+        <p>Baixe o resumo para estudar depois:</p>
+        <a href="material.pdf" download class="btn">Baixar PDF</a>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz</h2>
+        <p>Essa senha é segura?</p>
+        <input type="text" id="senha" placeholder="Digite uma senha">
+        <button onclick="verificarSenha()">Verificar</button>
+        <p id="resultado"></p>
+    </section>
+</main>
+<footer>
+    <p>Projeto de Extensão - Engenharia de Software</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
